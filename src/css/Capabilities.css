@@ -1,0 +1,122 @@
+.capabilities {
+  margin-top: 60px;
+}
+.capabilities .container .row .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.capabilities .container .row .heading .title {
+  display: flex;
+  align-items: center;
+}
+.capabilities .container .row .heading .title .sec-heading {
+  color: #080c4e;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.capabilities .container .row .heading .title .line {
+  content: "";
+  background: #5c51ff;
+  width: 5px;
+  height: 60px;
+  display: block;
+  margin: 0px 30px;
+}
+.capabilities .container .row .heading .title .sec-title {
+  color: #5c51ff;
+}
+/* .capabilities .container .row .heading .title h3::after {
+  content: "";
+  width: 8px;
+  height: 50px;
+  display: inline-block;
+  background: #5c51ff;
+  margin: 0px 30px;
+} */
+.capabilities .container .row .heading .box {
+  display: block;
+  align-items: center;
+}
+.capabilities .container .row .heading .box .line1 {
+  content: "";
+  width: 25px;
+  height: 20px;
+  background: #5c51ff;
+  display: block;
+}
+.capabilities .container .row .heading .box .line2 {
+  content: "";
+  width: 35px;
+  height: 30px;
+  background: #5c51ff;
+  display: block;
+  margin-top: 10px;
+}
+.capabilities .container .row .sec-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.capabilities .container .row .sec-card .card {
+  padding: 30px 15px 10px 15px;
+  border-radius: 25px;
+  width: 16rem;
+}
+.capabilities .container .row .sec-card .card .card-title {
+  margin-top: 30px;
+  color: #080c4e;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.capabilities .container .row .sec-card .card .card-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+.capabilities .container .row .sec-card .card-text {
+  font-size: 14px;
+  color: #8385a6;
+}
+.capabilities .container .row .sec-download {
+  max-height: 300px;
+  margin-top: 100px;
+  background-color: #faf9fe;
+  border-radius: 25px;
+  display: flex;
+}
+.capabilities .container .row .sec-download .sec-text {
+  padding: 40px 50px;
+}
+.capabilities .container .row .sec-download h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #080c4e;
+  text-transform: uppercase;
+}
+.capabilities .container .row .sec-download a {
+  margin-right: 10px;
+}
+.capabilities .container .row .sec-download .sec-img {
+  z-index: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.capabilities .container .row .sec-download .sec-img .img1 img {
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  width: 200px;
+  height: 100%;
+}
+.capabilities .container .row .sec-download .sec-img .img2 img {
+  position: relative;
+  top: 0px;
+  width: 160px;
+  height: 100%;
+}

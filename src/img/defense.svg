@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.485" height="80.934" viewBox="0 0 73.485 80.934">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="73.485" height="80.934" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.247" y1="1.036" x2="1.194" y2="-0.222" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#364aff"/>
+      <stop offset="1" stop-color="#fc54ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.954" y1="2.016" x2="0.949" y2="-0.015" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="defense" clip-path="url(#clip-path)">
+    <g id="defense-2" data-name="defense" transform="translate(-72.866 -68.066)">
+      <path id="Path_10876" data-name="Path 10876" d="M104.735,69.028A71.171,71.171,0,0,0,74.7,78.649a3.276,3.276,0,0,0-1.65,2.695q-.083,2.558-.151,5.115c-.775,25.9,14.416,49.455,35.143,62.852a2.928,2.928,0,0,0,3.147,0c14.828-9.474,26.831-24.489,32.171-41.491-12.933-12.688-26.1-25.964-38.62-38.791Z" transform="translate(0 -0.769)" fill="url(#linear-gradient)"/>
+      <path id="Path_10877" data-name="Path 10877" d="M270.321,107.05a65.428,65.428,0,0,0,2.972-21.361q-.068-2.558-.15-5.115a3.276,3.276,0,0,0-1.65-2.695C258.9,70.609,245.2,67.186,231.7,68.259A45.28,45.28,0,0,0,270.321,107.05Z" transform="translate(-126.966)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_10878" data-name="Path 10878" d="M159.406,183.135a1.522,1.522,0,0,1-1.9,0,64.4,64.4,0,0,1-15.6-18.15,58.89,58.89,0,0,1-7.934-28.907,1.608,1.608,0,0,1,.968-1.478,57.588,57.588,0,0,1,47.032,0,1.608,1.608,0,0,1,.968,1.478,58.886,58.886,0,0,1-7.934,28.906,64.4,64.4,0,0,1-15.6,18.15Z" transform="translate(-48.845 -49.173)" fill="#dfd5ff"/>
+    </g>
+  </g>
+</svg>
