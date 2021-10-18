@@ -1,15 +1,16 @@
 .header .container .nav {
-  margin: 12px auto;
+  margin: 14px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header .container .nav img {
-  width: 60px;
+  width: 45px;
+  height: 100%;
 }
 .header .container .nav .btn1 {
-  font-size: 15px;
-  padding: 10px 30px;
+  font-size: 14px;
+  padding: 10px 35px;
   border-radius: 10px;
   background-color: #ffff;
   border: 1px solid #4690ff;
@@ -23,7 +24,7 @@
   background-color: #ffff;
 }
 .header .container .nav .btn2 span img {
-  width: 100%;
+  width: 32px;
   height: 100%;
   padding: 8px;
 }

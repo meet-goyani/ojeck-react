@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Capabilities from './components/Capabilities';
 import Testimonial from './components/Testimonial';
+import Register from './components/Register';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -11,6 +13,8 @@ function App() {
       <Home />
       <Capabilities />
       <Testimonial />
+      <Register />
+      <Footer />
     </>
   );
 };

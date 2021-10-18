@@ -1,5 +1,5 @@
 .testimonial {
-  margin: 100px 0px;
+  margin-top: 120px;
 }
 .testimonial .row .heading {
   display: flex;
@@ -12,14 +12,14 @@
 }
 .testimonial .row .heading .box .line1 {
   content: "";
-  width: 25px;
-  height: 20px;
-  margin-left: 4px;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
   background: #5c51ff;
 }
 .testimonial .row .heading .box .line2 {
   content: "";
-  width: 35px;
+  width: 30px;
   height: 30px;
   margin-top: 10px;
   background: #5c51ff;
@@ -40,8 +40,72 @@
   display: block;
   margin: 0px 30px;
 }
-.testimonial .row .heading .sec-title .sec-heading {
+.testimonial .row .heading .sec-title .sec-heading h3 {
+  font-size: 26px;
   color: #080c4e;
-  font-weight: 400;
+  font-weight: 350;
   text-transform: uppercase;
+  line-height: 1.6;
+}
+.testimonial .row .main-review {
+  margin-top: 50px;
+  display: flex;
+  padding-left: 60px;
+}
+.testimonial .row .main-review .main-profile .person {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.testimonial .row .main-review .line {
+  content: "";
+  width: 5px;
+  height: 300px;
+  display: block;
+  background: #2b31a8;
+}
+.testimonial .row .main-review .main-profile .person .person-img img {
+  width: 65px;
+  height: 65px;
+}
+.testimonial .row .main-review .main-profile .person .p-name {
+  margin-left: 30px;
+}
+.testimonial .row .main-review .main-profile .person .p-name h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #080c4e;
+}
+.testimonial .row .main-review .main-profile .person .p-name p {
+  font-size: 11px;
+  color: #8385a6;
+}
+/* .testimonial .row .main-review .line {
+  content: "";
+  width: 1px;
+  height: 300px;
+  background: #8385a6;
+} */
+.testimonial .row .main-review .review .main-contain img {
+  width: 30px;
+  height: 100%;
+}
+.testimonial .row .main-review .review .main-contain p {
+  margin-top: 50px;
+  line-height: 1.8;
+  color: #080c4e;
+}
+.testimonial .row .main-review .review .main-contain .circle {
+  display: flex;
+  margin-top: 100px;
+}
+.testimonial .row .main-review .review .main-contain .circle1 {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #8385a6;
+  display: block;
+  margin-right: 10px;
+  cursor: pointer;
 }

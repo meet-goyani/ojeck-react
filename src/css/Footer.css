@@ -1,0 +1,55 @@
+.footer {
+  padding: 50px 0px;
+  background-color: #080c4e;
+}
+.footer .row {
+  display: flex;
+}
+.footer .row .footer-logo {
+  display: flex;
+}
+.footer .row .footer-logo img {
+  width: 60px;
+  height: 60px;
+}
+.footer .row .footer-logo h3 {
+  margin-left: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffff;
+  text-transform: uppercase;
+}
+.footer .row .main-contain {
+  display: flex;
+  color: #ffff;
+}
+.footer .row .main-contain .ojeck h5,
+.footer .row .main-contain .company h5,
+.footer .row .main-contain .cites h5,
+.footer .row .main-contain .social h5 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 450;
+  text-transform: uppercase;
+}
+.footer .row .main-contain .ojeck a,
+.footer .row .main-contain .company a,
+.footer .row .main-contain .cites a {
+  font-size: 14px;
+  display: block;
+  color: #b5b7ca;
+  text-decoration: none;
+  line-height: 2;
+}
+.footer .row .main-contain .social .btn {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #212560;
+  margin-right: 15px;
+  color: #ffff;
+}
+.footer .row .main-contain .social .btn img {
+  width: 22px;
+  height: 22px;
+}
